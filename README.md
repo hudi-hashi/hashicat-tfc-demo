@@ -20,7 +20,7 @@
 
 ### Clone this Repo
 ```
-git clone https://github.com/cesteban29/terraform-aws-hashicat.git
+git clone https://github.com/cesteban29/hashicat-tfc-demo.git
 ```
 
 ### Clone HashiCat module repository and store in TFC Private Module Registry
@@ -28,7 +28,7 @@ This repository consumes that module so it needs to be configured in your Privat
 
 #### 1. Clone HashiCat Module Repo
 ```
-git clone https://github.com/cesteban29/hashicat-tfc-demo.git
+git clone https://github.com/cesteban29/terraform-aws-hashicat.git
 ```
 
 #### 2. Release a version of the module using a tag in the repo
