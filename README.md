@@ -20,7 +20,7 @@
 
 ### Clone this Repo
 ```
-git clone https://github.com/cesteban29/hashicat-tfc-demo.git
+git clone https://github.com/hudi-hashi/hashicat-tfc-demo.git
 ```
 
 ### Clone HashiCat module repository and store in TFC Private Module Registry
@@ -28,7 +28,7 @@ This repository consumes that module so it needs to be configured in your Privat
 
 #### 1. Clone HashiCat Module Repo
 ```
-git clone https://github.com/cesteban29/terraform-aws-hashicat.git
+git clone https://github.com/hudi-hashi/terraform-aws-hashicat.git
 ```
 
 #### 2. Release a version of the module using a tag in the repo
@@ -42,7 +42,7 @@ To release a new version, create and push a new tag with the proper format. The 
 ### Update module block in main.tf to match the module you created in your TFC org
 Make sure that the source is pointing to your module in the PMR.
 Make sure that the version is set to the tag that you release in your module repo.
-[Module Code](https://github.com/cesteban29/tfcb-demo/blob/main/main.tf#L35-L41)
+[Module Code](https://github.com/hudi-hashi/hashicat-tfc-demo/blob/main/main.tf#L35-L41)
 
 ### Add HCP creds and AWS creds to your TFC workspace that this repo is connected to
 <a name="add-creds"></a>
