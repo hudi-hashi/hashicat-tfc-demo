@@ -6,7 +6,7 @@
   <!-- BEGIN -->
   <center><img src="http://placekitten.com/600/400"></img></center>
   <center><h1>Meow World!</h1></center>
-  <center><h2>Welcome to Carlos' Cat app!</h2></center>
+  <center><h2>Welcome to Hudi's Cat app!</h2></center>
   <!-- END -->
 
   </div>
