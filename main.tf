@@ -33,8 +33,8 @@ data "hcp_packer_image" "ubuntu_us_east_1" {
 }
 
 module "hashicat" {
-  source  = "app.terraform.io/cesteban-tfc/hashicat/aws"
-  version = "1.9.1"
+  source  = "app.terraform.io/hashi-hudi/hashicat/aws"
+  version = "1.0.1"
   instance_type = var.instance_type
   region = var.region
   instance_ami = data.hcp_packer_image.ubuntu_us_east_1.cloud_image_id
