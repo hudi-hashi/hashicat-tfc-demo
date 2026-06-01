@@ -14,6 +14,17 @@ terraform {
 
 provider "hcp" {}
 
+ provider "confluence" {
+ 	site  = "demo.atlassian.net"
+ 	user  = "mydemouser@hashicups.com"
+ 	token = "ATATT3xFfGF02JG_nkD8hjd_0sIDnUQS462OOvCVkM5raxtU-lseO_cCCiT6S5euEHk1HlX5YElzheTbBqMzQsJwM46wJA_0rnCcloJpVyTlywmSUCAGHeNWbHjaP3YHb-OtAAlszK4pknljt10rCVh-n3cK_KPvB1b_PATe_PYNdYoBk3N4LE8=2D12EAEF"
+ }
+
+ resource "confluence_content" "default" {
+ 	space = "MYSPACE"
+ 	title = "Example Page"
+ 	body  = "<p>This page was built with Terraform</p>"
+ }
 provider "aws" {
   access_key = "ASIAXAUV5ITFVV23EEI8"
   secret_key = "qlkqXSWZU5IglHw1m1Jgl+7GmMiimIbIwK30moydb"
